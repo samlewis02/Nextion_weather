@@ -43,11 +43,11 @@ String descString;
 String lplace;
 int iconn;
 String city1 = "Kaohsiung,TW";
-String city2 = "Northampton,GB";
+String city2 = "London,GB";
 String myPlace;
 ThreadController ThreadControl = ThreadController();
 Thread* weatherThread = new Thread();
-int timeZone = 1;     // HKT
+int timeZone = 1;     // GB time. Use 8 for Kaohsiung
 IPAddress ip(192, 168, 1, 136);
 IPAddress gateway(192, 168, 1, 1);
 IPAddress subnet(255, 255, 255, 0);
